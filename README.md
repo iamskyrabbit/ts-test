@@ -9,10 +9,12 @@
 3. Express
 `$ npm install --save express @types/express`
 4. React
+`$ npm install --save react react-dom @types/react @types/react-dom`
 ## How to use
 ```
-$ ./node_modules/.bin/webpack
+$ ./node_modules/.bin/webpack --config webpack.client.config.js && webpack --config webpack.server.config.js
 $ npm start
 ```
 ## Reference
 - https://qiita.com/adibozu/items/a01cc79efc7e8c543aa1
+- https://qiita.com/adibozu/items/e63144770f1fd48d6cd2
